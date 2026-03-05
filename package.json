@@ -1,0 +1,28 @@
+{
+  "name": "storyboard-pro",
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.3.0",
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.5",
+    "express-session": "^1.17.3",
+    "fs-extra": "^11.2.0",
+    "helmet": "^7.1.0",
+    "nodemailer": "^8.0.1",
+    "sharp": "^0.33.5",
+    "twilio": "^5.12.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
